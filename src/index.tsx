@@ -5,11 +5,14 @@ import './index.css';
 //import {App1} from './pages/Protable';
 import { App2 } from './pages/mainLayout';
 import reportWebVitals from './reportWebVitals';
-
+import { App3 } from './pages/one/Detail';
+// import { App4 } from './pages/two/Config';
+// import { App4 } from './pages/three/process';
+import { App4 } from './pages/four/StepFrom';
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 root.render(
   <React.StrictMode>
-    <App2 />
+    <App4 />
   </React.StrictMode>
 );
 
